@@ -1,0 +1,55 @@
+/* ========================================
+   ADVANCED CSS SELECTORS DEMONSTRATION
+   Covers: pseudo-classes, nth-child, hover
+   ======================================== */
+
+/* ID selector for main heading */
+#mainTopic {
+    color: blue;
+}
+
+/* Universal selector - centers all content */
+* {
+    text-align: center;
+}
+
+/* Group selector - applies same style to all headings */
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Class selector for paragraphs */
+.paragraph {
+    color: white;
+    background-color: cornflowerblue;
+}
+
+/* Descendant selector - button inside div */
+div button {
+    background-color: purple;
+    color: azure;
+}
+
+/* Pseudo-class selector - hover effect */
+button:hover {
+    background-color: yellow;
+    color: blue;
+}
+
+/* nth-of-type selector - targets odd paragraphs (1st, 3rd, 5th...) */
+.paragraph:nth-of-type(2n+1) {
+    color: yellow;
+}
+
+/* Pseudo-element selector - styles first line only */
+h1::first-line {
+    color: red;
+}
+
+/* Adjacent sibling + checked state selector */
+#yes:checked + label {
+    color: darkgreen;
+}
+
+/* Example of complex selector (commented out for reference) */
+/* #mainContent > div .main > .main > h1 */

@@ -1,0 +1,50 @@
+/* ========================================
+   FLEXBOX PRACTICAL LAYOUTS
+   Demonstrates: flex-wrap, space-between, navbar
+   ======================================== */
+
+/* 3x3 grid layout using flexbox */
+#container {
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap; /* Wraps items to create rows */
+    justify-content: space-between; /* Equal spacing between items */
+    align-self: center;
+}
+
+/* Individual grid boxes */
+.box {
+    height: 100px;
+    width: 100px;
+    background-color: grey;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 50px;
+    text-align: center;
+}
+
+/* Horizontal navigation bar */
+#navbar {
+    height: 50px;
+    width: 900px;
+    background-color: pink;
+    border: 2px solid lightseagreen;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-start; /* Items aligned to left */
+    align-content: center; /* Vertically centers content */
+}
+
+/* Navigation bar items */
+.option {
+    height: 50px; /* Added px unit */
+    width: 80px; /* Added px unit */
+    border-radius: 10px;
+    margin-left: 5px;
+    font-size: 24px;
+    line-height: 50px; /* Vertically centers text */
+}

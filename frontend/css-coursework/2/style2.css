@@ -1,0 +1,25 @@
+/* ========================================
+   CSS SELECTORS DEMONSTRATION
+   Covers: universal, element, id, class
+   ======================================== */
+
+/* Universal selector - applies to all elements */
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Element selector - targets all h1 elements */
+h1 {
+    color: #1b74e4; /* Facebook blue color */
+}
+
+/* ID selector - unique element styling */
+#searchbtn {
+    background-color: black;
+    color: white;
+}
+
+/* Class selector - reusable styling */
+.userbtn {
+    background-color: aqua;
+}

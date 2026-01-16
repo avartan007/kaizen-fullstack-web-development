@@ -1,0 +1,17 @@
+<struts-config>
+  <form-beans>
+    <form-bean name="loginForm" type="com.example.form.LoginForm" />
+  </form-beans>
+
+  <action-mappings>
+    <action path="/login" 
+            type="com.example.action.LoginAction" 
+            name="loginForm" 
+            input="/login.jsp" 
+            scope="request" 
+            validate="true">
+      <forward name="success" path="/success.jsp"/>
+      <forward name="failure" path="/failure.jsp"/>
+    </action>
+  </action-mappings>
+</struts-config>

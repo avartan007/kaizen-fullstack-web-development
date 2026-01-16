@@ -1,0 +1,33 @@
+<%- include("includes/head.ejs") %>
+
+    <body>
+        <%# "data" is an object passed from the server (name, followers, following, posts[]) %>
+            <h2>This page belongs to @<%= data.name %>
+            </h2>
+
+            <!-- UI actions (not wired here, purely presentational) -->
+            <button>Follow</button>
+            <button>Message</button>
+
+            <!-- Basic stats -->
+            <p>Followers: <%= data.followers %> &nbsp; &nbsp; &nbsp; Following: <%= data.following %>
+            </p>
+
+            <hr />
+
+            <%# Render each post with image, likes, and comments %>
+                <% for (let post of data.posts) { %>
+                    <img src="<%= post.image %>" alt="Post image">
+                    <p>
+                        Likes: <%= post.likes %> &nbsp;&nbsp;&nbsp;&nbsp;
+                            Comments: <%= post.comments %>
+                    </p>
+                    <% } %>
+
+                        <%- include("includes/footer.ejs") %>
+    </body>
+
+    <!-- Optionally load client JS (if present in /public) -->
+    <script src="/index.js"></script>
+
+    </html>

@@ -1,0 +1,14 @@
+<%- include("includes/head.ejs") %>
+
+    <body>
+        <!-- EJS output: diceVal is injected from the server -->
+        <h1>Dice gave value: <%= diceVal %>
+        </h1>
+
+        <%# Conditionally render a message when the dice shows 6 %>
+            <% if (diceVal==6) { %>
+                <h2>Nice! Roll dice again.</h2>
+                <% } %>
+    </body>
+
+    </html>

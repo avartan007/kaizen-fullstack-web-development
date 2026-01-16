@@ -1,0 +1,10 @@
+/* Global page background */
+body{
+    background-color: black ;
+}
+
+/* Make images responsive and fill their containers */
+img{
+    height: 100%;
+    width: 100%;
+}

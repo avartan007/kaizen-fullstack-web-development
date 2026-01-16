@@ -1,0 +1,133 @@
+/* ========================================
+   CSS GRID & ANIMATIONS DEMONSTRATION
+   Covers: grid layout, animations, keyframes, media queries
+   ======================================== */
+
+/* ===== GRID LAYOUT SECTION ===== */
+
+/* Grid container with various grid properties */
+.container {
+    width: 600px;
+    height: 300px;
+    background-color: yellow;
+    display: inline-grid;
+    
+    /* Different ways to define rows and columns */
+    grid-template-columns: auto auto auto; /* Auto-sized columns */
+    grid-template-rows: repeat(4, 1fr); /* 4 equal rows using fr units */
+    grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+    
+    /* Spacing between grid items */
+    row-gap: 10px;
+    column-gap: 10px;
+    grid-gap: 10px; /* Shorthand for both row and column gaps */
+    
+    /* Alignment properties */
+    justify-items: center; /* Horizontal alignment within cells */
+    align-items: start; /* Vertical alignment within cells */
+    place-items: center; /* Shorthand for both */
+}
+
+/* Grid items styling */
+.item {
+    width: 100px;
+    height: 50px;
+    background-color: greenyellow;
+    border: 2px solid black;
+    text-align: center;
+}
+
+/* Item spanning multiple columns */
+.one {
+    grid-column-start: 1; 
+    grid-column-end: 4; /* Spans from column 1 to 4 */
+    grid-column: 1 / span 2; /* Alternative: start at 1, span 2 columns */
+    justify-items: end;
+    align-self: end; /* Aligns this specific item */
+    place-self: start; /* Shorthand for justify-self and align-self */
+}
+
+/* Item spanning multiple rows */
+.two {
+    grid-row: 1 / span 3; /* Starts at row 1, spans 3 rows */
+}
+
+/* ===== ANIMATIONS SECTION ===== */
+
+/* Box with color animation */
+.box {
+    height: 100px;
+    width: 300px;
+    background-color: pink;
+
+    /* Animation properties (long form) */
+    animation-name: colorAnimate;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    /* animation-iteration-count: 3; */ /* Runs 3 times */
+    /* animation-direction: alternate; */ /* Reverses on alternate cycles */
+    
+    /* Animation shorthand: name duration timing delay iteration direction */
+    animation: colorAnimate 4s ease-in 0s 2 normal;
+} 
+
+/* ===== KEYFRAME ANIMATIONS ===== */
+
+/* Simple width animation */
+@keyframes widthAnime {
+    from {
+        width: 10px;
+    }
+    to {
+        width: 400px;
+    }
+}
+
+/* Font size animation */
+@keyframes fontAnimation {
+    from { 
+        font-size: 20px;
+    }
+    to {
+        font-size: 40px;
+    }
+}
+
+/* Color animation (two-state) */
+@keyframes colorAnime {
+    from {
+        background-color: green;
+    }
+    to {
+        background-color: blue;
+    }
+}
+
+/* Color animation (multi-state with percentages) */
+@keyframes colorAnimate {
+    0% {
+        background-color: green;
+    }
+    50% {
+        background-color: blue;
+    }
+    100% {
+        background-color: yellow;
+    }
+}
+
+/* ===== MEDIA QUERIES SECTION ===== */
+
+/* Default styling */
+h1 {
+    background-color: yellow;
+    border: 2px solid black;
+}
+
+/* Responsive styling - applies when viewport width >= 40px */
+@media(min-width: 40px) {
+    h1 {
+        background-color: red;
+    }
+}

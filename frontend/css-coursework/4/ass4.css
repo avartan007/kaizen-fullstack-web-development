@@ -1,0 +1,49 @@
+/* ========================================
+   CSS TRANSFORMS & TRANSITIONS DEMONSTRATION
+   Covers: transition, transform, box-shadow, background-image
+   ======================================== */
+
+/* Box 1: Transition effect - width expands on hover */
+#box1 {
+    width: 100px;
+    height: 100px;
+    background: green;
+    /* Transition: property duration timing-function delay */
+    transition: width 2s ease-in 0.5s;
+}
+
+#box1:hover {
+    width: 600px; /* Target width on hover */
+}
+
+/* Box 2: Transform - translate (move) and rotate */
+#box2 {
+    background: red;
+    /* Moves 200px right, 200px down, rotates 90 degrees */
+    transform: translate(200px, 200px) rotate(90deg);
+}
+
+/* Box 3: Transform - skew effect */
+#box3 {
+    width: 100px;
+    height: 100px;
+    background: lightblue;
+    transform: skewX(20deg); /* Skews element along X-axis */
+}
+
+/* Box 4: Box-shadow property */
+#box4 {
+    width: 100px;
+    height: 100px;
+    background: lightgreen;
+    /* Shadow: horizontal vertical blur color */
+    box-shadow: 2px 2px 5px green;
+}
+
+/* Box 5: Background-image property */
+#myPic {
+    width: 300px;
+    height: 165px;
+    background: pink; /* Fallback color */
+    background-image: url("gojo.jpeg"); /* Background image */
+}

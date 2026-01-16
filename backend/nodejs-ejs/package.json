@@ -1,0 +1,23 @@
+{
+  "name": "ejs-demo",
+  "version": "1.0.0",
+  "description": "A simple Express.js server demonstrating EJS templating with a mock Instagram-like interface",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "ejs",
+    "templating",
+    "node.js"
+  ],
+  "author": "Aadi",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.2"
+  }
+}

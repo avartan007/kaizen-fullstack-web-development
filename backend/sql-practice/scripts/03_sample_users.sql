@@ -1,0 +1,18 @@
+-- ============================================================================
+-- Database: Sample Database
+-- Description: Basic user management system
+-- ============================================================================
+
+CREATE DATABASE sample_db;
+USE sample_db;
+
+CREATE TABLE users
+(
+    id INT
+    AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR
+    (255) NOT NULL,
+    email VARCHAR
+    (255) UNIQUE,
+    age INT
+);

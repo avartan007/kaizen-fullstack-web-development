@@ -1,0 +1,51 @@
+/* ========================================
+   FLEXBOX LAYOUT DEMONSTRATION
+   Covers: flex-direction, justify-content, align-items, flex-grow
+   ======================================== */
+
+/* Flex container with various flex properties */
+#container {
+    height: 600px;
+    width: 60%;
+    background-color: azure;
+    margin: 10px auto; /* Centers container horizontally */
+    border: 2px solid black;
+    
+    /* Flexbox properties */
+    display: flex;
+    flex-direction: row; /* Main axis is horizontal */
+    justify-content: flex-start; /* Aligns items at start of main axis */
+    /* flex-wrap: wrap; */ /* Allows items to wrap to next line */
+    /* align-items: baseline; */ /* Aligns items along text baseline */
+    align-content: flex-start; /* Aligns wrapped lines */
+}
+
+/* Centers heading */
+h1 {
+    text-align: center;
+}
+
+/* Default styling for all flex items */
+#container div {
+    height: 100px;
+    width: 50px;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+} 
+
+/* Orange item - demonstrates flex properties */
+#org {
+    align-self: flex-start; /* Overrides container's align-items */
+    /* flex-basis: 50px; */ /* Sets initial size before growing */
+    /* flex-grow: 1; */ /* Distributes remaining space */
+    flex: 2 2 100px; /* Shorthand: flex-grow flex-shrink flex-basis */
+}
+
+/* Blue item - demonstrates flex-grow */
+#blue {
+    /* flex-basis: 400px; */ /* Initial size */
+    /* flex-grow: 3; */ /* Grows 3x relative to others */
+    /* min-width: 400px; */ /* Minimum width constraint */
+    flex-grow: 2; /* Takes 2x more space than default */
+}

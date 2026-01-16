@@ -1,0 +1,35 @@
+/* ========================================
+   DISPLAY PROPERTIES & UNITS DEMONSTRATION
+   Covers: em units, display types, border-radius
+   ======================================== */
+
+/* Box with mixed units (px and em) */
+#box {
+    height: 150px;
+    width: 300px;
+    background-color: grey;
+    border: 5px dotted black; /* Dotted border style */
+    margin-top: 20px;
+    margin-right: 1em; /* em unit - relative to font size */
+    margin-bottom: 40px;
+    margin-left: 2em;
+    padding: 1em; /* Padding in em units */
+}
+
+/* Circular divs displayed inline */
+.circle {
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    border: 2px solid black;
+    border-radius: 50%; /* Creates perfect circle */
+    display: inline-block; /* Allows block properties in inline context */
+}
+
+/* List items displayed horizontally instead of vertically */
+li {
+    display: inline; /* Removes default block behavior */
+}
+
+
+

@@ -1,0 +1,40 @@
+/* ========================================
+   SMILEY FACE STYLING
+   Demonstrates: positioning, border-radius
+   ======================================== */
+
+/* Main circular face */
+.face {
+    height: 400px;
+    width: 400px;
+    background-color: rgb(222, 136, 24); /* Orange face color */
+    border-radius: 50%; /* Creates perfect circle */
+}
+
+/* Smiling mouth - half circle at bottom */
+.mouth {
+    width: 200px;
+    height: 75px;
+    background-color: brown;
+    border-radius: 0 0 50px 50px; /* Rounded bottom corners only */
+    position: absolute; /* Positioned relative to nearest positioned ancestor */
+    top: 250px; /* Distance from top */
+    left: 100px; /* Distance from left */
+}
+
+/* Base styles for both eyes */
+.left, .right {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%; /* Circular eyes */
+    background-color: black;
+    display: inline-block;
+    position: absolute;
+    left: 100px; /* Left eye position */
+    top: 100px;
+}
+
+/* Right eye positioning override */
+.right {
+    left: 250px; /* Moves right eye to the right */
+}
