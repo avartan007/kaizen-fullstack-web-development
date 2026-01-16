@@ -1,103 +1,104 @@
-# Full-Stack Engineering Portfolio 🚀
+# 🚀 Full-Stack Engineering Portfolio
 
-**Enterprise-grade full-stack development portfolio** demonstrating advanced proficiency across modern web technologies, from client-side rendering to server-side architecture and database engineering.
+> **Enterprise-grade development portfolio** showcasing mastery across the entire web technology stack—from pixel-perfect UIs to scalable backends.
 
-## 🎯 Portfolio Highlights
+## ✨ What's Inside
 
-- ✨ **6-module CSS mastery** - From fundamentals to Grid/Flexbox architecture
-- 🔥 **13-module JavaScript track** - Variables to async/fetch patterns
-- 💾 **NoSQL + SQL expertise** - MongoDB & relational databases
-- 🎛️ **Backend architecture** - Express.js SSR, Java integration, API design
-- 🚀 **4 full-stack projects** - Production-ready implementations
-- 📊 **50+ technical concepts** - Demonstrated through code
+| 🎨 Frontend | 🔧 Backend | 🗄️ Databases | 🏗️ Projects |
+|:---:|:---:|:---:|:---:|
+| 6-module CSS mastery | Express.js, Java Servlets | MongoDB, MySQL, SQL | 4 full-stack apps |
+| 13-module JS track | REST API design | Database optimization | Production-ready |
+| Responsive design | Server architecture | Complex queries | Real-world patterns |
+| Modern animations | Middleware patterns | NoSQL & relational | 50+ concepts |
 
-## 🏗️ Technology Stack
+## 🛠️ Complete Tech Stack
 
 ```
-┌─────────────────────────────────────────────────┐
-│         Frontend: HTML5, CSS3, ES6+ JS          │
-├─────────────────────────────────────────────────┤
-│  Backend: Express.js, Java, Servlets, JSP       │
-├─────────────────────────────────────────────────┤
-│     Databases: MongoDB, MySQL, SQL              │
-├─────────────────────────────────────────────────┤
-│   DevOps: npm, Maven, Environment Config        │
-└─────────────────────────────────────────────────┘
+╔═══════════════════════════════════════════╗
+║  FRONTEND: HTML5 · CSS3 · ES6+ JavaScript ║
+╠═══════════════════════════════════════════╣
+║ BACKEND: Express.js · Java · Servlets · JSP ║
+╠═══════════════════════════════════════════╣
+║   DATABASES: MongoDB · MySQL · SQL         ║
+╠═══════════════════════════════════════════╣
+║ DevOps: npm · Maven · Docker · Git        ║
+╚═══════════════════════════════════════════╝
 ```
 
-## 📁 Repository Architecture
+## 📁 Repository Structure
 
 ### 🎨 Frontend Engineering (`/frontend`)
-Advanced client-side technologies and responsive design patterns
+**Responsive design meets interactive experiences**
 
 ```
 frontend/
-├── web-fundamentals/           HTML5 & CSS3 Semantics
-├── css-mastery/                6-module CSS track
-│   ├── 1/ - Selectors, Positioning, Specificity
-│   ├── 2/ - Advanced Selectors, Pseudo-classes
-│   ├── 3/ - Box Model, Display, Layout
-│   ├── 4/ - Transforms, Animations, Performance
-│   ├── 5/ - Flexbox Architecture & Alignment
-│   ├── 6/ - CSS Grid, Media Queries, Responsive Design
-│   └── Project/ - Integrated Implementation
-├── javascript-advanced/        13-module JavaScript track
-│   ├── 01-05/ - Fundamentals
-│   ├── 06-07/ - Functions & Objects
-│   ├── 08-10/ - DOM & Events
-│   ├── 11-13/ - Async, Fetch, API Integration
-│   └── projects/ - Real-world implementations
-├── bootstrap-components/       Enterprise UI patterns
-└── responsive-websites/        Production-ready sites
+├── 🏗️  html-css-basics/         Semantic markup & styling foundations
+├── 🎨 css-coursework/           6-module CSS mastery path
+│   ├── 1️⃣  Selectors & Positioning (Specificity, z-index, stacking)
+│   ├── 2️⃣  Advanced Selectors (Pseudo-classes, :not(), :nth-child())
+│   ├── 3️⃣  Box Model & Layouts (Margin collapse, BFC, display)
+│   ├── 4️⃣  Transforms & Animations (3D, keyframes, performance)
+│   ├── 5️⃣  Flexbox Mastery (Main/cross axis, alignment, growing)
+│   ├── 6️⃣  CSS Grid & Responsive (Areas, media queries, breakpoints)
+│   └── 📋 Capstone Project (Integrated implementation)
+├── 📜 javascript-coursework/    13-module JavaScript progression
+│   ├── 01-05: Fundamentals (Variables, types, operators, control flow)
+│   ├── 06-07: Functions & Objects (Closures, scope, prototypes)
+│   ├── 08-10: DOM & Events (Manipulation, listeners, delegation)
+│   ├── 11-13: Async Mastery (Callbacks, Promises, async/await, Fetch API)
+│   └── 🚀 Projects (Real-world API integration)
+├── 🎛️  bootstrap-snippets/      Enterprise UI component patterns
+└── 🌐 website-projects/         Production-ready site implementations
 ```
 
-**Key Competencies:**
-- CSS Grid & Flexbox architecture
-- Responsive mobile-first design
-- JavaScript closures & async patterns
-- DOM manipulation & event delegation
-- REST API consumption
-- Performance optimization
+**Competencies Unlocked:**
+- ✅ CSS Grid & Flexbox architecture
+- ✅ Responsive mobile-first design  
+- ✅ JavaScript closures & scope mastery
+- ✅ DOM manipulation & event delegation
+- ✅ REST API consumption patterns
+- ✅ Performance optimization techniques
 
 ### 🔧 Backend Engineering (`/backend`)
-Server-side architecture and database management
+**Scalable architectures powering web applications**
 
 ```
 backend/
-├── nodejs-ejs/                 Express.js with EJS templating
-│   ├── Server-side rendering (SSR)
-│   ├── Middleware patterns
-│   ├── Route handling
-│   └── Static asset serving
-├── mongodb-crud-operations/    Java-MongoDB integration
-│   ├── Document-oriented database
-│   ├── CRUD operations
-│   ├── Data access patterns
-│   └── Collection management
-└── database-fundamentals/      SQL engineering
-    ├── 12+ SQL scripts
-    ├── Complex queries
-    ├── Aggregate functions
-    ├── JOIN operations
-    └── Performance tuning
+├── 🟢 nodejs-ejs/              Express.js SSR with templating
+│   ├── Server-side rendering (dynamic HTML generation)
+│   ├── Middleware architecture & chain of responsibility
+│   ├── RESTful route handling with pattern matching
+│   └── Static asset serving & performance optimization
+├── 🍃 mongodb-crud-operations/ Java-MongoDB integration
+│   ├── Document-oriented database design
+│   ├── CRUD operations (Create, Read, Update, Delete)
+│   ├── Data access patterns & repository layer
+│   └── Collection management & indexing
+└── 🗄️  sql-practice/           Advanced relational SQL
+    ├── 12+ production SQL scripts across domains
+    ├── Complex queries (JOINs, subqueries, CTEs)
+    ├── Aggregate functions (GROUP BY, HAVING, window functions)
+    ├── Performance tuning & index strategies
+    └── Real-world scenarios (Finance, HR, Retail, Education)
 ```
 
-**Key Competencies:**
-- Express.js framework & middleware
-- EJS templating engine
-- MongoDB document design
-- SQL query optimization
-- CRUD operation patterns
-- API endpoint design
+**Competencies Unlocked:**
+- ✅ Express.js framework & middleware patterns
+- ✅ Server-side templating (EJS) & MVC architecture
+- ✅ RESTful API design & best practices
+- ✅ MongoDB document modeling
+- ✅ SQL optimization & complex queries
+- ✅ Database normalization & design
 
 ### 🚀 Full-Stack Projects (`/projects`)
-Production-grade applications demonstrating integrated architectures
+**Complete applications demonstrating integrated architecture**
 
-| Project | Tech Stack | Architecture |
-|---------|-----------|--------------|
-| **Student Management** | Java Servlets, JSP, MySQL | MVC with JDBC |
-| **Banking System** | Java EJB, JSP | Enterprise Beans |
-| **Authentication** | Apache Struts, JSP | Form validation, routing |
+| Project | Architecture | Tech Stack | Highlights |
+|---------|--------------|-----------|-----------|
+| **Student Management System** | MVC with Servlets | Java, JSP, MySQL | CRUD operations, database integration, form validation |
+| **Banking Application** | Enterprise EJB | Java Beans, JSP | Stateful session management, transaction handling, security |
+| **Authentication System** | Apache Struts | Struts, JSP, XML routing | Form bean validation, action processing, security patterns |
+| **Deposit-Withdraw App** | Modern architecture | Full-stack implementation | Real transaction flows, state management |
 | **Finance Tracker** | Python, Tkinter | Desktop GUI |
 
 ## 🎓 Learning & Development Path
