@@ -1,6 +1,6 @@
 # 🚀 Full-Stack Engineering Portfolio
 
-> **Enterprise-grade development portfolio** showcasing mastery across the entire web technology stack—from pixel-perfect UIs to scalable backends.
+A collection of web development projects covering frontend, backend, databases, and full-stack applications.
 
 ## ✨ What's Inside
 
@@ -47,17 +47,17 @@ frontend/
 │   ├── 08-10: DOM & Events (Manipulation, listeners, delegation)
 │   ├── 11-13: Async Mastery (Callbacks, Promises, async/await, Fetch API)
 │   └── 🚀 Projects (Real-world API integration)
-├── 🎛️  bootstrap-snippets/      Enterprise UI component patterns
-└── 🌐 website-projects/         Production-ready site implementations
+├── 🎛️  bootstrap-snippets/      Bootstrap component examples
+└── 🌐 website-projects/         Website implementations
 ```
 
-**Competencies Unlocked:**
-- ✅ CSS Grid & Flexbox architecture
-- ✅ Responsive mobile-first design  
-- ✅ JavaScript closures & scope mastery
-- ✅ DOM manipulation & event delegation
-- ✅ REST API consumption patterns
-- ✅ Performance optimization techniques
+**Topics Covered:**
+- CSS Grid & Flexbox
+- Responsive mobile-first design  
+- JavaScript closures & scope
+- DOM manipulation & event delegation
+- REST API consumption
+- Performance optimization
 
 ### 🔧 Backend Engineering (`/backend`)
 **Scalable architectures powering web applications**

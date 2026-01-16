@@ -1,10 +1,10 @@
 # 🎨 Frontend Engineering Portfolio
 
-> **Advanced client-side technology mastery** showcasing modern web development practices, progressive enhancement, responsive design, and interactive user experiences.
+Client-side development with HTML5, CSS3, and JavaScript including responsive design and interactive components.
 
 ## 📊 Technology Stack
 
-| Layer | Technologies | Mastery Areas |
+| Layer | Technologies | Topics |
 |-------|---------------|--------------|
 | 🏗️ **Markup** | HTML5 Semantic Structure | Accessibility, SEO, document semantics |
 | 🎨 **Styling** | CSS3 (Flexbox, Grid, Animations) | Layout systems, responsive design, performance |
@@ -36,19 +36,19 @@ Foundational web technologies and semantic markup patterns.
 | 5️⃣ | Flexbox Mastery | Main/cross axis, alignment, flex-grow/shrink/basis |
 | 6️⃣ | CSS Grid & Responsive | Grid areas, media queries, mobile-first breakpoints |
 
-**Capstone Project:** Integrated implementation combining all modules
+**Capstone Project:** Combined implementation
 
-**Competencies Unlocked:**
-✅ Modern layout systems (Flexbox & Grid)  
-✅ Responsive mobile-first design  
-✅ CSS animation performance tuning  
-✅ Accessibility & semantic styling  
-✅ Component-based CSS architecture  
+**Covered:**
+- Modern layout systems (Flexbox & Grid)  
+- Responsive mobile-first design  
+- CSS animations  
+- Accessibility & semantic styling  
+- Component-based CSS  
 
 ---
 
 ### 📜 javascript-coursework/
-**13-Module JavaScript Proficiency Track** | From fundamentals to production patterns
+**13-Module JavaScript Track** | Fundamentals to advanced patterns
 
 **Core Modules:**
 - **01-05**: Variables, operators, control flow, loops, arrays
@@ -61,7 +61,7 @@ Foundational web technologies and semantic markup patterns.
 ---
 
 ### 🎛️ bootstrap-components/
-Enterprise-ready component library and utility patterns
+Bootstrap component library and utilities
 
 Learn professional UI development with Bootstrap 5:
 - Responsive grid system & breakpoints
@@ -73,7 +73,7 @@ Learn professional UI development with Bootstrap 5:
 ---
 
 ### 🌐 responsive-websites/
-Production-ready website implementations demonstrating real-world skills
+Responsive website implementations
 
 **Robotics Club Website** → Complete responsive site featuring:
 - Mobile-first responsive design
@@ -83,16 +83,16 @@ Production-ready website implementations demonstrating real-world skills
 
 ---
 
-## 🎯 Competencies by Learning Path
+## 🎯 Learning Paths
 
-**🎨 CSS Mastery Path**
+**🎨 CSS Path**
 - Advanced selector optimization & specificity management
 - Modern layout systems (Flexbox & CSS Grid)
 - Animation & transform performance tuning
 - Responsive design & mobile-first strategies
 - Accessibility-first styling approaches
 
-**⚙️ JavaScript Mastery Path**
+**⚙️ JavaScript Path**
 - Scope, closures & variable hoisting
 - Event delegation & event bubbling patterns
 - Async/await vs Promises vs callbacks
@@ -131,7 +131,7 @@ Each module strategically builds on previous knowledge with increasingly complex
 
 ---
 
-*🏆 Enterprise-grade frontend implementations with production-ready code patterns and best practices.*
+*Frontend implementations and best practices.*
 
 ## 📈 Development Progression
 
