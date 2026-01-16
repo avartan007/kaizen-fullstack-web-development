@@ -102,20 +102,20 @@ Production-grade applications demonstrating integrated architectures
 
 ## 🎓 Learning & Development Path
 
-### Phase 1: Foundations (Weeks 1-4)
+### Phase 1: Foundations 
 - Web fundamentals & HTML5 semantics
 - CSS fundamentals & box model
 - JavaScript basics, variables, control flow
 - Personal Finance Tracker project
 
-### Phase 2: Intermediate (Weeks 4-8)
+### Phase 2: Intermediate 
 - Advanced CSS (Grid, Flexbox, Animations)
 - JavaScript proficiency (Functions, DOM, Events)
 - Express.js server architecture
 - SQL fundamentals & practice
 - Student Management System project
 
-### Phase 3: Advanced (Weeks 8-12)
+### Phase 3: Advanced 
 - CSS mastery (Performance, Responsive design)
 - Async JavaScript (Promises, Fetch, async/await)
 - MongoDB NoSQL patterns
